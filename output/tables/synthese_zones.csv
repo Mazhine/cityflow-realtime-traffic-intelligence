@@ -1,0 +1,9 @@
+﻿zone_id,zone_name,speed_limit_kmh,vehicle_count,avg_speed_kmh,congestion_rate,congested_events,active_sensors,vehicle_share
+Z01,Centre-Ville,40,8377,17.7,0.873,7297,4,0.159
+Z02,Maarif,40,7793,18.9,0.835,6487,3,0.148
+Z04,Sidi Maarouf,60,7160,39.9,0.448,3205,4,0.136
+Z05,Hay Hassani,50,6322,26.4,0.752,4739,3,0.12
+Z08,Ain Sebaa,60,6212,36.6,0.575,3594,4,0.118
+Z03,Ain Diab,60,5954,38.3,0.506,2974,3,0.113
+Z07,Bourgogne,50,5616,25.5,0.778,4362,3,0.107
+Z06,Anfa,40,5196,19.5,0.819,4214,2,0.099

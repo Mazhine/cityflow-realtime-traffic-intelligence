@@ -1,0 +1,117 @@
+{
+  "dataset": "CityFlow - Real-Time Traffic Intelligence",
+  "version": "1.0",
+  "generated_at": "2026-11-04T17:11:48+00:00",
+  "seed": 20261102,
+  "timezone": "UTC",
+  "period": {
+    "start": "2026-11-02T07:00:00Z",
+    "end": "2026-11-02T09:00:00Z"
+  },
+  "files": 12,
+  "file_duration_minutes": 10,
+  "total_events": 52846,
+  "late_events": 2194,
+  "late_ratio": 0.0415,
+  "corrupt_lines": 216,
+  "zones": 8,
+  "format": "JSON Lines (UTF-8, un objet par ligne)",
+  "file_stats": [
+    {
+      "file": "traffic_20261102_0700_0710.json",
+      "events": 4365,
+      "late_events": 12,
+      "corrupt_lines": 18,
+      "window_start": "2026-11-02T07:00:00Z",
+      "window_end": "2026-11-02T07:10:00Z"
+    },
+    {
+      "file": "traffic_20261102_0710_0720.json",
+      "events": 4310,
+      "late_events": 85,
+      "corrupt_lines": 15,
+      "window_start": "2026-11-02T07:10:00Z",
+      "window_end": "2026-11-02T07:20:00Z"
+    },
+    {
+      "file": "traffic_20261102_0720_0730.json",
+      "events": 4511,
+      "late_events": 143,
+      "corrupt_lines": 17,
+      "window_start": "2026-11-02T07:20:00Z",
+      "window_end": "2026-11-02T07:30:00Z"
+    },
+    {
+      "file": "traffic_20261102_0730_0740.json",
+      "events": 4332,
+      "late_events": 190,
+      "corrupt_lines": 18,
+      "window_start": "2026-11-02T07:30:00Z",
+      "window_end": "2026-11-02T07:40:00Z"
+    },
+    {
+      "file": "traffic_20261102_0740_0750.json",
+      "events": 4443,
+      "late_events": 200,
+      "corrupt_lines": 15,
+      "window_start": "2026-11-02T07:40:00Z",
+      "window_end": "2026-11-02T07:50:00Z"
+    },
+    {
+      "file": "traffic_20261102_0750_0800.json",
+      "events": 4233,
+      "late_events": 202,
+      "corrupt_lines": 18,
+      "window_start": "2026-11-02T07:50:00Z",
+      "window_end": "2026-11-02T08:00:00Z"
+    },
+    {
+      "file": "traffic_20261102_0800_0810.json",
+      "events": 4491,
+      "late_events": 231,
+      "corrupt_lines": 18,
+      "window_start": "2026-11-02T08:00:00Z",
+      "window_end": "2026-11-02T08:10:00Z"
+    },
+    {
+      "file": "traffic_20261102_0810_0820.json",
+      "events": 4361,
+      "late_events": 223,
+      "corrupt_lines": 18,
+      "window_start": "2026-11-02T08:10:00Z",
+      "window_end": "2026-11-02T08:20:00Z"
+    },
+    {
+      "file": "traffic_20261102_0820_0830.json",
+      "events": 4405,
+      "late_events": 229,
+      "corrupt_lines": 25,
+      "window_start": "2026-11-02T08:20:00Z",
+      "window_end": "2026-11-02T08:30:00Z"
+    },
+    {
+      "file": "traffic_20261102_0830_0840.json",
+      "events": 4478,
+      "late_events": 229,
+      "corrupt_lines": 14,
+      "window_start": "2026-11-02T08:30:00Z",
+      "window_end": "2026-11-02T08:40:00Z"
+    },
+    {
+      "file": "traffic_20261102_0840_0850.json",
+      "events": 4458,
+      "late_events": 233,
+      "corrupt_lines": 21,
+      "window_start": "2026-11-02T08:40:00Z",
+      "window_end": "2026-11-02T08:50:00Z"
+    },
+    {
+      "file": "traffic_20261102_0850_0900.json",
+      "events": 4459,
+      "late_events": 217,
+      "corrupt_lines": 19,
+      "window_start": "2026-11-02T08:50:00Z",
+      "window_end": "2026-11-02T09:00:00Z"
+    }
+  ]
+}

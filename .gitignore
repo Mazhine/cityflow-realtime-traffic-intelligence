@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+L2_Code/notebooks/_runtime/
+output/checkpoints/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+.~lock.*#
+.vscode/
+.idea/
+.venv/
+env/

@@ -1,0 +1,9 @@
+{
+  "mode": "batch",
+  "elapsed_seconds": 25.09,
+  "compute_seconds": 16.32,
+  "write_seconds": 8.76,
+  "valid_events": 52630,
+  "windows": 96,
+  "output": "C:\\Users\\mazin\\OneDrive\\デスクトップ\\Projets 5eme année\\Projet Big Data\\Projet3_CityFlow_RealTime_Traffic\\output\\batch_windows"
+}

@@ -1,0 +1,407 @@
+{
+  "mode": "availableNow",
+  "generated_at": "2026-11-04T17:13:39+00:00",
+  "source_files": 12,
+  "source_dir": "C:\\Users\\mazin\\OneDrive\\デスクトップ\\Projets 5eme année\\Projet Big Data\\Projet3_CityFlow_RealTime_Traffic\\L3_Dataset\\data\\stream",
+  "elapsed_seconds_streaming": 86.27,
+  "micro_batches": 13,
+  "valid_events": 52630,
+  "finalized_windows": 80,
+  "finalized_events": 43710,
+  "dropped_late_events": 198,
+  "open_window_events": 8722,
+  "all_windows_batch": 96,
+  "avg_batch_duration_ms": 6880.1,
+  "max_batch_duration_ms": 22151,
+  "batch_metrics": [
+    {
+      "batch_id": 0,
+      "num_input_rows": 4365,
+      "trigger_execution_ms": 22151,
+      "watermark": "1970-01-01T00:00:00.000Z",
+      "max_event_time": "2026-11-02T07:09:59.989Z",
+      "dropped_by_watermark": 0
+    },
+    {
+      "batch_id": 1,
+      "num_input_rows": 4310,
+      "trigger_execution_ms": 4119,
+      "watermark": "2026-11-02T06:59:59.989Z",
+      "max_event_time": "2026-11-02T07:19:59.899Z",
+      "dropped_by_watermark": 0
+    },
+    {
+      "batch_id": 2,
+      "num_input_rows": 4511,
+      "trigger_execution_ms": 3811,
+      "watermark": "2026-11-02T07:09:59.899Z",
+      "max_event_time": "2026-11-02T07:29:59.907Z",
+      "dropped_by_watermark": 0
+    },
+    {
+      "batch_id": 3,
+      "num_input_rows": 4332,
+      "trigger_execution_ms": 10299,
+      "watermark": "2026-11-02T07:19:59.907Z",
+      "max_event_time": "2026-11-02T07:39:59.772Z",
+      "dropped_by_watermark": 0
+    },
+    {
+      "batch_id": 4,
+      "num_input_rows": 4443,
+      "trigger_execution_ms": 8075,
+      "watermark": "2026-11-02T07:29:59.772Z",
+      "max_event_time": "2026-11-02T07:49:59.945Z",
+      "dropped_by_watermark": 16
+    },
+    {
+      "batch_id": 5,
+      "num_input_rows": 4233,
+      "trigger_execution_ms": 7157,
+      "watermark": "2026-11-02T07:39:59.945Z",
+      "max_event_time": "2026-11-02T07:59:59.795Z",
+      "dropped_by_watermark": 30
+    },
+    {
+      "batch_id": 6,
+      "num_input_rows": 4491,
+      "trigger_execution_ms": 6008,
+      "watermark": "2026-11-02T07:49:59.795Z",
+      "max_event_time": "2026-11-02T08:09:59.762Z",
+      "dropped_by_watermark": 22
+    },
+    {
+      "batch_id": 7,
+      "num_input_rows": 4361,
+      "trigger_execution_ms": 5742,
+      "watermark": "2026-11-02T07:59:59.762Z",
+      "max_event_time": "2026-11-02T08:19:59.622Z",
+      "dropped_by_watermark": 24
+    },
+    {
+      "batch_id": 8,
+      "num_input_rows": 4405,
+      "trigger_execution_ms": 6010,
+      "watermark": "2026-11-02T08:09:59.622Z",
+      "max_event_time": "2026-11-02T08:29:59.974Z",
+      "dropped_by_watermark": 26
+    },
+    {
+      "batch_id": 9,
+      "num_input_rows": 4478,
+      "trigger_execution_ms": 4705,
+      "watermark": "2026-11-02T08:19:59.974Z",
+      "max_event_time": "2026-11-02T08:39:59.849Z",
+      "dropped_by_watermark": 26
+    },
+    {
+      "batch_id": 10,
+      "num_input_rows": 4458,
+      "trigger_execution_ms": 5007,
+      "watermark": "2026-11-02T08:29:59.849Z",
+      "max_event_time": "2026-11-02T08:49:59.634Z",
+      "dropped_by_watermark": 28
+    },
+    {
+      "batch_id": 11,
+      "num_input_rows": 4459,
+      "trigger_execution_ms": 3510,
+      "watermark": "2026-11-02T08:39:59.634Z",
+      "max_event_time": "2026-11-02T08:59:59.723Z",
+      "dropped_by_watermark": 26
+    },
+    {
+      "batch_id": 12,
+      "num_input_rows": 0,
+      "trigger_execution_ms": 2847,
+      "watermark": "2026-11-02T08:49:59.723Z",
+      "max_event_time": null,
+      "dropped_by_watermark": 0
+    }
+  ],
+  "top_zones": [
+    {
+      "zone_id": "Z01",
+      "zone_name": "Centre-Ville",
+      "vehicle_count": 8377,
+      "avg_speed_kmh": 17.7,
+      "congestion_rate": 0.873
+    },
+    {
+      "zone_id": "Z02",
+      "zone_name": "Maarif",
+      "vehicle_count": 7793,
+      "avg_speed_kmh": 18.9,
+      "congestion_rate": 0.835
+    },
+    {
+      "zone_id": "Z04",
+      "zone_name": "Sidi Maarouf",
+      "vehicle_count": 7160,
+      "avg_speed_kmh": 39.9,
+      "congestion_rate": 0.448
+    },
+    {
+      "zone_id": "Z05",
+      "zone_name": "Hay Hassani",
+      "vehicle_count": 6322,
+      "avg_speed_kmh": 26.4,
+      "congestion_rate": 0.752
+    },
+    {
+      "zone_id": "Z08",
+      "zone_name": "Ain Sebaa",
+      "vehicle_count": 6212,
+      "avg_speed_kmh": 36.7,
+      "congestion_rate": 0.575
+    },
+    {
+      "zone_id": "Z03",
+      "zone_name": "Ain Diab",
+      "vehicle_count": 5954,
+      "avg_speed_kmh": 38.3,
+      "congestion_rate": 0.506
+    },
+    {
+      "zone_id": "Z07",
+      "zone_name": "Bourgogne",
+      "vehicle_count": 5616,
+      "avg_speed_kmh": 25.5,
+      "congestion_rate": 0.778
+    },
+    {
+      "zone_id": "Z06",
+      "zone_name": "Anfa",
+      "vehicle_count": 5196,
+      "avg_speed_kmh": 19.5,
+      "congestion_rate": 0.819
+    }
+  ],
+  "worst_windows": [
+    {
+      "window_start": "2026-11-02T08:00:00",
+      "window_end": "2026-11-02T08:10:00",
+      "zone_id": "Z01",
+      "zone_name": "Centre-Ville",
+      "vehicle_count": 711,
+      "avg_speed_kmh": 13.9,
+      "congestion_rate": 1.0,
+      "traffic_state": "Critique"
+    },
+    {
+      "window_start": "2026-11-02T07:40:00",
+      "window_end": "2026-11-02T07:50:00",
+      "zone_id": "Z01",
+      "zone_name": "Centre-Ville",
+      "vehicle_count": 708,
+      "avg_speed_kmh": 15.1,
+      "congestion_rate": 1.0,
+      "traffic_state": "Critique"
+    },
+    {
+      "window_start": "2026-11-02T08:10:00",
+      "window_end": "2026-11-02T08:20:00",
+      "zone_id": "Z01",
+      "zone_name": "Centre-Ville",
+      "vehicle_count": 668,
+      "avg_speed_kmh": 13.5,
+      "congestion_rate": 1.0,
+      "traffic_state": "Critique"
+    },
+    {
+      "window_start": "2026-11-02T07:40:00",
+      "window_end": "2026-11-02T07:50:00",
+      "zone_id": "Z02",
+      "zone_name": "Maarif",
+      "vehicle_count": 652,
+      "avg_speed_kmh": 16.1,
+      "congestion_rate": 1.0,
+      "traffic_state": "Dense"
+    },
+    {
+      "window_start": "2026-11-02T07:50:00",
+      "window_end": "2026-11-02T08:00:00",
+      "zone_id": "Z01",
+      "zone_name": "Centre-Ville",
+      "vehicle_count": 613,
+      "avg_speed_kmh": 14.6,
+      "congestion_rate": 1.0,
+      "traffic_state": "Critique"
+    }
+  ],
+  "sample_windows": [
+    {
+      "zone_name": "Centre-Ville",
+      "district": "Casablanca - Sidi Belyout",
+      "speed_limit_kmh": 40,
+      "vehicle_count": 700,
+      "avg_speed_kmh": 28.0,
+      "median_speed_kmh": 28.1,
+      "p95_speed_kmh": 35.5,
+      "min_speed_kmh": 13.8,
+      "max_speed_kmh": 40.5,
+      "congested_events": 125,
+      "active_sensors": 4,
+      "window_start": "2026-11-02T07:00:00",
+      "window_end": "2026-11-02T07:10:00",
+      "avg_speed_ratio": 0.7,
+      "congestion_rate": 0.179,
+      "traffic_state": "Fluide",
+      "computed_at": "2026-11-04T17:12:30.334000",
+      "batch_id": 3,
+      "zone_id": "Z01"
+    },
+    {
+      "zone_name": "Maarif",
+      "district": "Casablanca - Maarif",
+      "speed_limit_kmh": 40,
+      "vehicle_count": 659,
+      "avg_speed_kmh": 30.2,
+      "median_speed_kmh": 30.2,
+      "p95_speed_kmh": 38.2,
+      "min_speed_kmh": 13.7,
+      "max_speed_kmh": 46.7,
+      "congested_events": 62,
+      "active_sensors": 3,
+      "window_start": "2026-11-02T07:00:00",
+      "window_end": "2026-11-02T07:10:00",
+      "avg_speed_ratio": 0.755,
+      "congestion_rate": 0.094,
+      "traffic_state": "Libre",
+      "computed_at": "2026-11-04T17:12:30.334000",
+      "batch_id": 3,
+      "zone_id": "Z02"
+    },
+    {
+      "zone_name": "Ain Diab",
+      "district": "Casablanca - Ain Diab",
+      "speed_limit_kmh": 60,
+      "vehicle_count": 540,
+      "avg_speed_kmh": 61.0,
+      "median_speed_kmh": 61.5,
+      "p95_speed_kmh": 75.0,
+      "min_speed_kmh": 25.2,
+      "max_speed_kmh": 75.0,
+      "congested_events": 4,
+      "active_sensors": 3,
+      "window_start": "2026-11-02T07:00:00",
+      "window_end": "2026-11-02T07:10:00",
+      "avg_speed_ratio": 1.017,
+      "congestion_rate": 0.007,
+      "traffic_state": "Libre",
+      "computed_at": "2026-11-04T17:12:30.334000",
+      "batch_id": 3,
+      "zone_id": "Z03"
+    },
+    {
+      "zone_name": "Sidi Maarouf",
+      "district": "Casablanca - Sidi Maarouf",
+      "speed_limit_kmh": 60,
+      "vehicle_count": 596,
+      "avg_speed_kmh": 63.0,
+      "median_speed_kmh": 64.0,
+      "p95_speed_kmh": 75.0,
+      "min_speed_kmh": 30.1,
+      "max_speed_kmh": 75.0,
+      "congested_events": 5,
+      "active_sensors": 4,
+      "window_start": "2026-11-02T07:00:00",
+      "window_end": "2026-11-02T07:10:00",
+      "avg_speed_ratio": 1.05,
+      "congestion_rate": 0.008,
+      "traffic_state": "Libre",
+      "computed_at": "2026-11-04T17:12:30.334000",
+      "batch_id": 3,
+      "zone_id": "Z04"
+    },
+    {
+      "zone_name": "Hay Hassani",
+      "district": "Casablanca - Hay Hassani",
+      "speed_limit_kmh": 50,
+      "vehicle_count": 533,
+      "avg_speed_kmh": 42.4,
+      "median_speed_kmh": 42.7,
+      "p95_speed_kmh": 53.6,
+      "min_speed_kmh": 14.6,
+      "max_speed_kmh": 62.5,
+      "congested_events": 28,
+      "active_sensors": 3,
+      "window_start": "2026-11-02T07:00:00",
+      "window_end": "2026-11-02T07:10:00",
+      "avg_speed_ratio": 0.848,
+      "congestion_rate": 0.053,
+      "traffic_state": "Libre",
+      "computed_at": "2026-11-04T17:12:30.334000",
+      "batch_id": 3,
+      "zone_id": "Z05"
+    },
+    {
+      "zone_name": "Anfa",
+      "district": "Casablanca - Anfa",
+      "speed_limit_kmh": 40,
+      "vehicle_count": 500,
+      "avg_speed_kmh": 31.0,
+      "median_speed_kmh": 31.2,
+      "p95_speed_kmh": 39.3,
+      "min_speed_kmh": 12.6,
+      "max_speed_kmh": 44.9,
+      "congested_events": 42,
+      "active_sensors": 2,
+      "window_start": "2026-11-02T07:00:00",
+      "window_end": "2026-11-02T07:10:00",
+      "avg_speed_ratio": 0.775,
+      "congestion_rate": 0.084,
+      "traffic_state": "Libre",
+      "computed_at": "2026-11-04T17:12:30.334000",
+      "batch_id": 3,
+      "zone_id": "Z06"
+    },
+    {
+      "zone_name": "Bourgogne",
+      "district": "Casablanca - Anfa",
+      "speed_limit_kmh": 50,
+      "vehicle_count": 444,
+      "avg_speed_kmh": 40.4,
+      "median_speed_kmh": 40.3,
+      "p95_speed_kmh": 52.1,
+      "min_speed_kmh": 18.0,
+      "max_speed_kmh": 62.5,
+      "congested_events": 27,
+      "active_sensors": 3,
+      "window_start": "2026-11-02T07:00:00",
+      "window_end": "2026-11-02T07:10:00",
+      "avg_speed_ratio": 0.808,
+      "congestion_rate": 0.061,
+      "traffic_state": "Libre",
+      "computed_at": "2026-11-04T17:12:30.334000",
+      "batch_id": 3,
+      "zone_id": "Z07"
+    },
+    {
+      "zone_name": "Ain Sebaa",
+      "district": "Casablanca - Ain Sebaa",
+      "speed_limit_kmh": 60,
+      "vehicle_count": 532,
+      "avg_speed_kmh": 58.3,
+      "median_speed_kmh": 58.8,
+      "p95_speed_kmh": 72.4,
+      "min_speed_kmh": 27.7,
+      "max_speed_kmh": 75.0,
+      "congested_events": 5,
+      "active_sensors": 4,
+      "window_start": "2026-11-02T07:00:00",
+      "window_end": "2026-11-02T07:10:00",
+      "avg_speed_ratio": 0.972,
+      "congestion_rate": 0.009,
+      "traffic_state": "Libre",
+      "computed_at": "2026-11-04T17:12:30.334000",
+      "batch_id": 3,
+      "zone_id": "Z08"
+    }
+  ],
+  "outputs": {
+    "bronze": "C:\\Users\\mazin\\OneDrive\\デスクトップ\\Projets 5eme année\\Projet Big Data\\Projet3_CityFlow_RealTime_Traffic\\output\\bronze_events",
+    "gold": "C:\\Users\\mazin\\OneDrive\\デスクトップ\\Projets 5eme année\\Projet Big Data\\Projet3_CityFlow_RealTime_Traffic\\output\\gold_windows",
+    "metrics": "C:\\Users\\mazin\\OneDrive\\デスクトップ\\Projets 5eme année\\Projet Big Data\\Projet3_CityFlow_RealTime_Traffic\\output\\metrics\\stream_batches.jsonl"
+  }
+}

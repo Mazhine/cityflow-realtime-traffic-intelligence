@@ -1,0 +1,9 @@
+zone_id,zone_name,district,speed_limit_kmh,lanes
+Z01,Centre-Ville,Casablanca - Sidi Belyout,40,4
+Z02,Maarif,Casablanca - Maarif,40,3
+Z03,Ain Diab,Casablanca - Ain Diab,60,3
+Z04,Sidi Maarouf,Casablanca - Sidi Maarouf,60,4
+Z05,Hay Hassani,Casablanca - Hay Hassani,50,3
+Z06,Anfa,Casablanca - Anfa,40,2
+Z07,Bourgogne,Casablanca - Anfa,50,3
+Z08,Ain Sebaa,Casablanca - Ain Sebaa,60,4
